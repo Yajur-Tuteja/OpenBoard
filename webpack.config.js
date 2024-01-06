@@ -30,7 +30,7 @@ module.exports = {
             "timers": false,
             "tls": false,
             "utf-8-validate": false,
-            "string-decoder": false
+            "string_decoder": false
         }
     }
 }  
