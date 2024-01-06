@@ -28,7 +28,9 @@ module.exports = {
             "buffer": false,
             "util": false,
             "timers": false,
-            "tls": false
+            "tls": false,
+            "utf-8-validate": false,
+            "string-decoder": false
         }
     }
 }  
