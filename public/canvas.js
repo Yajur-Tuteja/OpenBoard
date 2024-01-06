@@ -70,6 +70,7 @@ canvas.addEventListener("mouseup", (e) => {
 });
 
 undo.addEventListener("click", (e) => {
+    console.log("begin");
     if (track >= 0) track--;
 
     // tool.clearRect(0, 0, canvas.width, canvas.height);
