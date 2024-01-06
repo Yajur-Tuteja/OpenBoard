@@ -29,6 +29,7 @@ tool.lineWidth = penWidth;
 // mousemove -> path fill (graphics)
 
 canvas.addEventListener("mousedown", (e) => {
+    console.log("begin");
     mouseIsDown = true;
     // beginPath({
     //     x: e.clientX,
@@ -66,7 +67,6 @@ canvas.addEventListener("mouseup", (e) => {
     let url = canvas.toDataURL();
     undoRedoTracker.push(url);
     track = undoRedoTracker.length - 1;
-    ;
 });
 
 undo.addEventListener("click", (e) => {
