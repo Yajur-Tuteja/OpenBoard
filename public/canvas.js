@@ -29,7 +29,7 @@ tool.lineWidth = penWidth;
 // mousemove -> path fill (graphics)
 
 canvas.addEventListener("mousedown", (e) => {
-    console.log(mouseIsDown);
+    console.log("letitrip");
     mouseIsDown = true;
     // beginPath({
     //     x: e.clientX,
